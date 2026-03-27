@@ -1,0 +1,243 @@
+body {
+
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+
+header {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+gap: 40px;
+}
+
+.nav-links {
+
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+gap: 20px;
+}
+
+.nav-links li {
+margin-left: 80px;
+}
+
+.nav-links a {
+text-decoration: none;
+color: black;
+}
+
+.rainy-days_logo {
+height: 45px;
+}
+
+.header.image {
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+
+}
+
+.hero h1 {
+font-size: 48px;
+
+}
+
+.hero button {
+
+padding: 15px;
+background: #7F6C5C;
+color: #ffffff;
+border: none;
+margin-top: 20px;
+
+}
+
+.info {
+
+background: #7F6C5C;
+
+color: white;
+
+text-align: center;
+
+padding: 40px;
+
+}
+
+.products {
+
+padding: 10px;
+
+object-fit: cover;
+
+}
+
+.product-grid {
+
+display: flex;
+
+justify-content: center;
+
+gap: 40px;
+
+}
+
+.product img {
+
+width: 200px;
+
+}
+
+.most-wanted {
+
+text-align: center;
+
+font-size: x-large;
+
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+position: relative;
+
+padding: 10px;
+
+}
+
+.why_our_jackets {
+
+font-size: smaller;
+
+font-family:Arial, Helvetica, sans-serif;
+
+background: #7F6C5C;
+
+color: white;
+
+text-align: center;
+
+padding: 40px;
+
+position: relative;
+
+}
+
+/* NEWSLETTER */
+
+.newsletter {
+
+background: #7F6C5C;
+
+color: white;
+
+text-align: center;
+
+padding: 30px;
+
+}
+
+.newsletter-form {
+
+margin-top: 15px;
+
+}
+
+.newsletter input {
+
+padding: 10px;
+
+width: 200px;
+
+border: none;
+
+}
+
+.newsletter button {
+
+padding: 10px 15px;
+
+border: none;
+
+background: white;
+
+color: #4F3F31;
+
+margin-left: 10px;
+
+}
+
+/* IMAGE SECTION */
+
+.bottom-image {
+
+height: 600px;
+
+background: url("../Pictures/footer-2.jpg") center/cover no-repeat;
+
+}
+
+/* FOOTER */
+
+footer {
+
+background: #4F3F31;
+
+color: white;
+
+padding: 40px;
+
+}
+
+.footer-container {
+
+display: flex;
+
+justify-content: space-between;
+
+flex-wrap: wrap;
+
+}
+
+.footer-container div {
+
+max-width: 200px;
+
+}
+
+.footer-container h4 {
+
+margin-bottom: 10px;
+
+}
+
+.footer-container p {
+
+margin: 10px 0;
+
+font-size: 14px;
+
+}
+
+.chat-time {
+
+margin-top: 15px;
+
+font-size: 12px;
+
+}
+
+/* PAYMENTS */
+
+.payments {
+
+text-align: center;
+
+margin-top: 30px;
+
+font-size: 14px;
+
+}
