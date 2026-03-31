@@ -28,7 +28,8 @@ body {
   display: flex;             
   align-items: center;      
   padding: 60px 60px;
-  padding-bottom: 15px;        
+  padding-bottom: 15px;
+  flex-wrap: wrap;        
 }
 
 nav ul {
@@ -133,7 +134,7 @@ text-align: center;
 padding-top: 20px;
 }
 
-    h1::after {
+      h1::after {
       content: '';
       display: block;
       width: 200px;
@@ -191,6 +192,7 @@ padding-top: 20px;
       margin-left: 63px;
       margin-top: 10px;
       border-radius: 0;
+      font-size: 15px;
     }
 
     
@@ -202,9 +204,22 @@ padding-top: 20px;
       text-align:left
     }
 
-    .stars span {
-      margin: 0 1px;
-    }
+  .stars span {
+   margin: 0 1px;
+   }
+
+.product-description-most.wanted {
+  background-color: #D9D9D9;
+  color: black;
+  padding: 40px 0; 
+}
+
+.product-description-most.wanted .content {
+  max-width: 850px; 
+  margin: 0 auto;   
+  padding: 0 20px;  
+  text-align: center;
+}
 
     @media (max-width: 800px) {
       section {
@@ -213,7 +228,6 @@ padding-top: 20px;
     }
 
 
-/*footer nederst*/
 .newsletter {
   font-family: 'Albert Sans';
   background-color: #7F6C5C;
@@ -237,31 +251,50 @@ padding-top: 20px;
   background-color: #cdc0b4;
 }
 
-
-.footer-container {
-  font-family: 'Almarai';
+.main-footer {
   background-color: #4F3F31;
   color: white;
-  text-align: left;
+  padding: 60px 40px;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;               
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-col {
+  flex: 1;                      
+  min-width: 200px;
+  margin-bottom: 30px;
+}
+
+.footer-col h4 {
+  font-size: 14px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: white;                 
+  text-decoration: none;
+  font-size: 13px;
 }
 
 .footerimage {
   max-width: 100%;
-  object-fit: contain;
-  height: 60vh;
-}
-
-.product-description-most.wanted {
-  background-color: #D9D9D9;
-  color: black;
-  padding: 40px 0; 
-}
-
-.product-description-most.wanted .content {
-  max-width: 850px; 
-  margin: 0 auto;   
-  padding: 0 20px;  
-  text-align: center;
 }
 
 @media (max-width: 768px) {
