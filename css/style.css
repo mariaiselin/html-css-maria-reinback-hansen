@@ -27,17 +27,17 @@ body {
   font-family: 'Almarai';
   display: flex;             
   align-items: center;      
-  padding: 60px 60px;
-  padding-bottom: 15px;
-  flex-wrap: wrap;        
+  padding: 20px 5%;
+  padding-bottom: 15px;      
 }
 
 nav ul {
   display: flex;
   list-style: none;
-  gap: 90px;
+  gap: 4rem;
   font-size: small;
 }
+
 
 nav ul li a {
     text-decoration: none;
@@ -221,7 +221,7 @@ padding-top: 20px;
   text-align: center;
 }
 
-    @media (max-width: 800px) {
+    @media (max-width: 768px) {
       section {
         grid-template-columns: 1fr;
       }
@@ -234,8 +234,9 @@ padding-top: 20px;
   text-align: center;
   padding: 40px;
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
   margin-bottom: 1px;
+  display: flex;
 
 }
 
@@ -262,7 +263,7 @@ padding-top: 20px;
   display: flex;
   justify-content: space-between; 
   flex-wrap: wrap;               
-  max-width: 1200px;
+  max-width: 1640px;
   margin: 0 auto;
 }
 
