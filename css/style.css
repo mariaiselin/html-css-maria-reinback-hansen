@@ -17,6 +17,10 @@ body {
   margin: 0 auto;     
 }
 
+.mwh3 {
+  text-align: center;
+}
+
 .rainydays_logo {
   width: 90px;
   object-fit: cover;
